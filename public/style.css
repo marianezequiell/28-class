@@ -1,0 +1,35 @@
+body {
+    height: 100%;
+    margin-top: 25px; }
+
+.container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center; }
+.container .section-container {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .container .section-container h1 {
+    text-align: center; }
+    .container .section-container input {
+    margin-bottom: 10px; }
+.container table tbody tr td img {
+    max-height: 25px; }
+
+.chat_email {
+    font-weight: bold;
+    color: blue
+}
+
+.chat_hora {
+    color: brown
+}
+
+.chat_text {
+    font-style: italic;
+    color: green
+}
+
